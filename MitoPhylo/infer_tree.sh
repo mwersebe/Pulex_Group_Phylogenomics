@@ -18,7 +18,7 @@ cp AMAS/amas/AMAS.py .
 
 # Run IQtree to, infer the best model and partitioning scheme and then infer the ML tree:
 
-iqtree -s Mito_Genes.fasta -p Mito_Genes.txt -m TESTMERGE -o Daphnia_retrocurvaClay -B 1000 -nt AUTO
+iqtree -s Mito_Genes.fasta -p Mito_Genes.txt -m TESTMERGE -o SRR10160568 -B 1000 -nt AUTO
 
 # Convert the ML tree file to newick for reading into R.
 
